@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://github.com/harshhhdev/custom-pointer-react/blob/master/public/Banner.jpg" />
   <a href="https://harshhhdev.github.io/custom-pointer-react/">
-    <h2 align="center">custom-pointer-react</h2>
+    <h2 align="center">[Website] custom-pointer-react</h2>
   </a>
 </p> 
 <p align="center">:rocket: Custom cursors for React</p>
@@ -11,100 +11,41 @@
   <a href="https://issure.vercel.app/">Demo</a>
  </p>
 
-# 🚀 Quickstart
+# 🚀 Quickstart 
 
-Install the [npm package](https://www.npmjs.com/package/custom-pointer-react)
-
-```zsh
-yarn add custom-pointer-react
-```
-
-Next, import & customise the cursor to your liking! Make sure to wrap the app in the context afterwards.
-
-Need help customising? Play around with values on our [website!](https://harshhhdev.github.io/custom-pointer-react)
-
-```jsx
-import { Cursor } from 'custom-pointer-react'
-...
-const Cursor = () => {
-  return (
-    ...
-    <Cursor {...passParametersToCustomise} />
-    ...
-  )
-}
-...
-export default App
-```
-
-Next, wrap the app in the `MouseContext`
-
-```jsx
-import { MouseContextProvider } from 'custom-pointer-react'
-...
-ReactDOM.render(
-  <MouseContextProvider>
-    <App />
-  </MouseContextProvider>,
-  document.getElementById('root')
-)
-...
-```
-
-To hide the computer's cursor, add the following CSS:
-
-```css
-* {
-  cursor: none !important;
-}
-```
-
-# 📚 Parameters
-
-_Note: All parameters are optional_
-
-| Parameter  | Description                                         | Default Value |
-| ---------- | --------------------------------------------------- | ------------- |
-| color      | The background colour of the cursor                 | #000000       |
-| showRing   | Controls whether to show the ring around the cursor | true          |
-| ringSize   | Controls the size of the ring around the cursor     | 50px          |
-| cursorSize | Controls the size of the cursor                     | 10px          |
-| ringBorder | Controls the width of the ring's border             | 2px           |
-
-# 💻 Development
-
-Run the project locally
+Run the website locally
 
 ```
-git clone https://github.com/harshhhdev/custom-pointer-react.git
+git clone -b website https://github.com/harshhhdev/custom-pointer-react.git
 ```
 
 ## Setting up the project
 
-```zsh
+```bash
 cd custom-pointer-react
 
-# install deps
+# Install deps
 yarn
 ```
 
 ## Starting server
 
-```zsh
-yarn start
+```bash
+yarn dev
 ```
 
-This should compile an instance of your project to the `dist` folder
+Server should now be running on [localhost](https://localhost:3000)
 
 # 🔧 Tools Used
 
-- [create-react-library](https://www.npmjs.com/package/create-react-library)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Microbundle](https://github.com/developit/microbundle)
-- [React](https://reactjs.org/)
-- [styled-components](https://styled-components.com/)
-- [Prettier](https://prettier.io/)
-- [ESLint](https://eslint.org/)
+ - [AgileTS](https://agile-ts.org/)
+ - [React Syntax Highlighter](https://react-syntax-highlighter.github.io/react-syntax-highlighter/demo/)
+ - [TypeScript](https://www.typescriptlang.org/)
+ - [Next.js](https://nextjs.org/)
+ - [Stitches](https://stitches.dev/)
+ - [Prettier](https://prettier.io/)
+ - [ESLint](https://eslint.org/)
+ - [Figma](https://www.figma.com/)
 
 # 🤞 Contributing
 
